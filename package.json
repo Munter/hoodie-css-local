@@ -1,0 +1,17 @@
+{
+  "name": "hoodie-css-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "livestyle": "^2.0.1"
+  },
+  "devDependencies": {
+    "livestyle": "^2.0.1"
+  },
+  "scripts": {
+    "start": "livestyle --root app --proxy http://hoodiehq.github.io/ -m /hoodie-css/src/css/prod=/styles -d --dead"
+  },
+  "author": "",
+  "license": "ISC"
+}

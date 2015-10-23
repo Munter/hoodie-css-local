@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "livestyle": "^2.0.1"
-  },
   "devDependencies": {
-    "livestyle": "^2.0.1"
+    "livestyle": "git://github.com/Munter/livestyle.git#7827241508"
   },
   "scripts": {
-    "start": "livestyle --root app --proxy http://hoodiehq.github.io/ -m /hoodie-css/src/css/prod=/styles -d --dead"
+    "start": "livestyle --root app --proxy http://hoodie-css.surge.sh/ --replace http://hoodiehq.github.io/hoodie-css/src/css/prod/hoodie.min.pref.css=/fake.css -m /fake.css=/styles/hoodie.min.pref.css"
   },
   "author": "",
   "license": "ISC"

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "livestyle": "git://github.com/Munter/livestyle.git#7827241508"
+    "livestyle": "git://github.com/Munter/livestyle.git#49ccc79d60436139ac2e765aead376250f738110"
   },
   "scripts": {
     "start": "livestyle --root app --proxy http://hoodie-css.surge.sh/ --replace http://hoodiehq.github.io/hoodie-css/src/css/prod/hoodie.min.pref.css=/styles/hoodie.min.pref.css"
